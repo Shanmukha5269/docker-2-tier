@@ -1,4 +1,4 @@
-# Simple 2-Tier Todo Application
+# Simple 2-Tier Todo Application with Docker
 
 This is a simple 2-tier application consisting of a Node.js backend with MongoDB and a basic HTML/CSS/JavaScript frontend.
 
@@ -22,12 +22,12 @@ Before you begin, ensure you have the following installed:
 1.  **Clone the repository (if applicable) or navigate to the project directory:**
 
     ```bash
-    cd path/to/your/2-tier-app
+    cd path/to/your/docker-2-tier
     ```
 
 2.  **Install Node.js dependencies:**
 
-    Navigate to the project root directory (`f:\DevOps\2-tier`) and run:
+    Navigate to the project root directory and run:
 
     ```bash
     npm install
@@ -58,7 +58,7 @@ Once the server is running, open your web browser and navigate to `http://localh
 ## Project Structure
 
 ```
-2-tier/
+docker-2-tier/
 ├── node_modules/
 ├── public/
 │   ├── index.html
@@ -77,3 +77,5 @@ Once the server is running, open your web browser and navigate to `http://localh
     -   `script.js`: Frontend JavaScript for interacting with the backend API.
 -   `package.json`: Project metadata and dependencies.
 -   `README.md`: This file.
+-   `Dockerfile`: Dockerfile for building the Node.js backend image.
+
